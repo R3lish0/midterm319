@@ -46,11 +46,12 @@ html, body{
 #feed{
     height:50em;
     margin-bottom:15em;
+    overflow:scroll;
 }
 #leaderBoard{
     margin-left:3em;
     width:30%;
-    height:68.9em
+    height:66.8em
 
 
 }
@@ -60,4 +61,57 @@ html, body{
     display: flex;
     flex-direction: row;
     margin-right:3em;
+}
+.user
+{
+    display:flex;
+    flex-direction: row;
+    height: 3em;
+
+}
+.userImg
+{
+    width: 3em;
+    height: 3em;
+    border-radius: 50px;
+}
+.post
+{
+    margin-left:2em;
+    background-color: white;
+    margin-right:2em;
+    border-radius: 25px;
+    height:10em;
+    margin-bottom:2em
+}
+.username
+{
+    margin:auto;
+    margin-left:0.3em;
+}
+.postContent
+{
+    text-align: left;
+    margin-left:1em;
+    margin-top:1em;
+}
+.Luser
+{
+    margin:auto;
+    margin-left:0.3em;
+}
+.numPosts
+{
+    margin:auto;
+    margin-left:0.3em;
+    text-align: left;
+}
+.lPost
+{
+    margin-left:2em;
+    background-color: white;
+    margin-right:2em;
+    border-radius: 25px;
+    height:7em;
+    margin-bottom:2em
 }

@@ -1,0 +1,21 @@
+[
+    {
+        "user":"Awesome Avacado",
+        "numPosts":3,
+        "userImg":"./images/avacado.jpg"
+    },
+    {
+        "user":"Bossy Bacon",
+        "numPosts":2,
+        "userImg":"./images/bacon.jpg"
+    },
+    {
+        "user":"Crazy Carrot",
+        "numPosts":1,
+        "userImg":"./images/carrot.jpg"
+    }
+
+
+
+
+]
