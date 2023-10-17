@@ -1,21 +1,25 @@
+
+*{
+    color:#0C7489
+}
+
 #contentContainer
 {
     width:70%;
     display:flex;
     flex-direction: column;
-    background-color: rgb(88, 88, 243);
-    margin-left:3em;
+    background-color: #13505B;
 
 }
 #titleCard
 {
     width:100%;
     height:auto;
-    background-color:rgb(88, 88, 243);
+    background-color:#13505B;
     
 }
 html, body{
-    background-color:rgb(88, 88, 243)
+    background-color:#13505B
 }
 #titleHeader
 {
@@ -23,14 +27,36 @@ html, body{
     margin:auto;
     margin-top: 2em;
     width:80%;
-    background-color:rgb(234, 234, 234);
+    background-color:#D7D9CE;
     text-align: center;
     border-radius: 25px;
+    margin-bottom:3.5em;
 }
 #title{
     padding:1em
 }
-#postCreation, #feed{
-    background-color: rgb(234, 234, 234);
+#postCreation, #feed, #leaderBoard{
+    background-color: #D7D9CE;
     border-radius: 25px;
+    text-align: center;
+}
+#postCreation{
+    margin-bottom: 2em;
+}
+#feed{
+    height:50em;
+    margin-bottom:15em;
+}
+#leaderBoard{
+    margin-left:3em;
+    width:30%;
+
+
+}
+#mondoContainer
+{
+    margin-left:3em;
+    display: flex;
+    flex-direction: row;
+    margin-right:3em;
 }
